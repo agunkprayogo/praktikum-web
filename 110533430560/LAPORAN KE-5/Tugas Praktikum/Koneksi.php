@@ -3,7 +3,7 @@
 	// Jika perlu, sesuaikan nama user dan password
 	$host = 'localhost';
 	$user = 'root';
-	$pass = '';
+	$pass = '12345';
 	$db = 'test';
 	$cnn = mysql_connect($host, $user, $pass);
 	if (!$cnn) 
